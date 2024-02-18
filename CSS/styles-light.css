@@ -1,5 +1,9 @@
 /* Light mode styles */
 body {
-    background-color: #FFFFFF; /* Light background color */
+    /* Light mode background gradient */
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0, #cccccc); /* Gradient from light to dark gray */
+
+    /* Other styles for light mode */
     color: #000000; /* Black text */
+    /* Add your other CSS styles here */
 }
