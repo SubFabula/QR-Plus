@@ -1,0 +1,11 @@
+/* Light mode styles */
+.light-mode body {
+    /* Light mode styles */
+    background-image: url('Assets/BackGround/qr-gradient_background-dark.png');
+}
+
+/* Dark mode styles */
+.dark-mode body {
+    /* Dark mode styles */
+    background-image: url('Assets/BackGround/qr-gradient_background-light.png');
+}
