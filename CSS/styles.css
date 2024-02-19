@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* Header Styles */
 .header {
     background-color: #FFD54F; /* Yellow header */

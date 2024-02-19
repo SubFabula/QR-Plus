@@ -1,0 +1,6 @@
+/* styles-dark.css */
+body {
+    background-image: url('Assets/BackGround/qr-gradient_background-light.png');
+    color: #FFFFFF; /* White text */
+    /* Add other CSS styles for dark mode here */
+}
