@@ -1,0 +1,32 @@
+/* Common styles for both light and dark modes */
+body {
+    /* Common styles for body element */
+}
+
+.header {
+    /* Common styles for header element */
+}
+
+/* Light mode styles */
+body.light-mode {
+    /* Light mode-specific styles */
+    background: linear-gradient(to bottom, #f2f2f2, #e0e0e0, #cccccc, #b8b8b8, #aaaaaa); /* Gradient from light to dark gray */
+    color: #000000; /* Black text */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    /* Dark mode-specific styles */
+    background-color: #000000; /* Dark background color */
+    color: #FFFFFF; /* White text */
+}
+
+/* Additional styles for specific elements in light mode */
+body.light-mode .header {
+    /* Additional styles for header element in light mode */
+}
+
+/* Additional styles for specific elements in dark mode */
+body.dark-mode .header {
+    /* Additional styles for header element in dark mode */
+}
