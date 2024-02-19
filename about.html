@@ -6,9 +6,20 @@
     <title>QR+ Hakkında Sayfası</title>
     <link rel="stylesheet" href="CSS/styles.css"><!-- Link to CSS file -->
     <link rel="icon" href="Assets/Icon/qr_icon.ico" type="image/x-icon"><!-- Link to .ico for Icon-->
-    <link id="themeStylesheet" rel="stylesheet" href="CSS/styles-light_dark-png.css"> <!-- Default to light mode -->
+    <link id="themeStylesheet" rel="stylesheet" href="CSS/styles-light-png.css"> <!-- Default to light mode -->
+    <style>
+        .lazy-background {
+            width: 100%;
+            height: 100vh; /* Adjust as needed */
+            background-color: #a3a3a3; /* Fallback color */
+            background-position: center;
+            background-size: cover;
+            transition: background-image 0.5s ease;
+        }
+    </style>
 </head>
 <body>
+    <div class="lazy-background" data-src="path/to/your/image.jpg"></div>
     <section>
         <div class="header">
             <h1>QR+'a Hoşgeldiniz</h1>
@@ -31,6 +42,7 @@
             <p>Biz QR+ olarak, günlük hayatta unutulan Matematik formüllerini bir QR a koyduk ve birazda espri ekledik. Bu sayede, siz etraftaki QR kodları okutarak bu formulleri hiç unutmayacak ve bizde yüzlerinizde bir gülücük bırakıcaz.</p>
          </section>
     </div>
-    <script src="JavaScript/script-light_and_dark_toggle.js"></script> <!-- JavaScript file -->
+    <script src="JavaScript/script-light_and_dark_toggle.js"></script> <!-- JavaScript for the "toggleMode" file -->
+    <script src="JavaScript/script-lazybackground.js"></script> <!-- JavaScript for the LazyBackground -->
 </body>
 </html>
